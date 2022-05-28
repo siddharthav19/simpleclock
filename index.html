@@ -1,0 +1,162 @@
+<!-- First created -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Clock</title>
+     <style>
+          body{
+/*                max-height: 700px; */
+               height:94%;
+            
+               background-color: rgba(97, 93, 93, 0.945);
+               display: flex;
+               justify-content: center;
+               align-items: center;
+          }
+          .box{
+               background: rgb(54, 94, 134);
+               padding: 10px;
+               width: 450px;
+               height: 450px;
+               min-height: 270px;
+               /* min-width: 200px; */
+               box-shadow: 10px 10px 20px rgb(126, 120, 176) inset ;
+               border-radius: 10px ;
+               display: flex;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+               
+          }
+          .circle{
+               margin: 10px;
+               height: 100px;
+                background: rgb(2, 0, 36);
+               background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(175, 243, 72, 0.9923319669664741) 0%, rgba(0, 212, 255, 1) 100%);
+            color:white;
+               width: 100px;
+               border-radius: 50%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-weight: 300;
+               font-size: x-large;
+               background: linear-gradient(to top, #679970 0%, #5f64a7 100%)
+          }
+          @media (max-width:368px)
+          {
+               .box{
+                    flex-direction: column;
+               }
+
+          }
+
+          
+     </style>
+</head>
+<body>
+     <div class="box">
+          <div class="hour circle"></div>
+          <div class="minute circle"></div>
+          <div class="secon circle"></div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Clock</title>
+     <style>
+          body {
+            margin-top:94px; /* added */
+               max-height: 700px;
+               /* background-color: rgba(97, 93, 93, 0.945); */
+               /* Created with https://www.css-gradient.com */
+               /* Created with https://www.css-gradient.com */
+               background: #7B794C;
+               background: -webkit-linear-gradient(left, #7B794C, #6B3564);
+               background: -moz-linear-gradient(left, #7B794C, #6B3564);
+               background: linear-gradient(to right, #7B794C, #6B3564);
+
+               display: flex;
+               justify-content: center;
+               align-items: center;
+          }
+
+          .box {
+               /* background: rgb(54, 94, 134); */
+               /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,138,243,0.9923319669664741) 0%, rgba(0,212,255,1) 100%); */
+               background: rgb(2, 0, 36);
+               background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(175, 243, 72, 0.9923319669664741) 0%, rgba(0, 212, 255, 1) 100%);
+               padding: 10px;
+               width: 450px;
+               height: 450px;
+               min-height: 270px;
+               /* min-width: 200px; */
+               box-shadow: 0px 0px 45px rgb(231, 148, 46);
+               border-radius: 10px;
+               display: flex;
+               flex-direction: row;
+               justify-content: center;
+               align-items: center;
+
+          }
+
+          .circle {
+               margin: 10px;
+               height: 100px;
+               /* border: solid rgb(74, 48, 4); */
+               width: 100px;
+               /* box-shadow: 2px 2px 10px  rgb(150, 236, 154); */
+               box-shadow: 2px 2px 10px rgb(92, 221, 247);
+               border-radius: 50%;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               font-weight: 300;
+               font-size: x-large;
+               /* background: linear-gradient(to top, #679970 0%, #5f64a7 100%); */
+               /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(190, 91, 206, 0.992) 0%, rgb(31, 165, 192) 100%); */
+               /* Created with https://www.css-gradient.com */
+               background: #5376E0;
+               background: -webkit-linear-gradient(top left, #5376E0, #E59480);
+               background: -moz-linear-gradient(top left, #5376E0, #E59480);
+               background: linear-gradient(to bottom right, #5376E0, #E59480);
+
+
+               color: white;
+          }
+
+          @media (max-width:368px) {
+               .box {
+                    flex-direction: column;
+               }
+
+          }
+     </style>
+</head>
+
+<body>
+     <div class="box">
+          <div class="hour circle"></div>
+          <div class="minute circle"></div>
+          <div class="secon circle"></div>
+     </div>
+     <script src="script.js"></script>
+</body>
+
+</html>
+
+
